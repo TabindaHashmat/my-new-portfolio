@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 143, 213); /* Outer background color */
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outer-container {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.page {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffd3db; /* Inner background color (baby pink) */
+
+}
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 10%;
+    margin: 10px; /* Add margin around the container */
+    padding: 5px; 
+}
+
+.profile-image {
+    border-radius: 200%; /* Circular profile image */
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(128, 0, 128, 0.5); 
+  background-image: url("profile-image.jpg"); /* Replace with your actual profile image */
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #bbd6f2; /* Initial color */
+    border-radius: 50%; /* Circle shape */
+    color: rgb(22, 21, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.circle:hover {
+    background-color: #1bcfcf; /* Darker color on hover */
+}
+
+.catchy-paragraph {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: black;
+    text-align: center;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience-icon {
+    font-size: 24px;
+    color: #030304; /* Icon color */
+    margin-right: 10px;
+}
+
+h2, h3 {
+    margin: 10px 0;
+}
+.body .h2{
+    text-shadow: yellow;
+}
+.service-square {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.service-block {
+    flex: 1 1 25%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 100, 100); /* Green color */
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  
+}
+
+.service-block:hover {
+    background-color: #fd7cf4; /* Darker green on hover */
+}
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.skill-block {
+    background-color: #eb70e3; /* Blue color */
+    color: rgb(23, 21, 21);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.skill-block:hover {
+    background-color: #df175a; /* Darker blue on hover */
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.tiny-button {
+    text-decoration: none;
+    color: white;
+    background-color: #34383d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 12px; /* Tiny font size */
+    margin: 0 5px;
+}
+
+.tiny-button:hover {
+    background-color: #070607; /* Darker blue on hover */
+}
+
+.input-group {
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+.input-group label {
+    display: block; /* Block for label */
+    margin-bottom: 5px; /* Space below label */
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #f1c1c1; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    transition: border-color 0.3s ease; /* Smooth border change */
+    
+}
+
+.submit-button {
+    background-color: #ab67c2; /* Button color */
+    color: rgb(24, 22, 22);
+    padding: 10px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth color change */
+}
+
+.submit-button:hover {
+    background-color: #7548c9; /* Darker blue on hover */
+}
+
+.page {
+    display: flex;
+    width: 10%; /* Full width of the container */
+    height: 70px; /* Adjust this value for a taller page */
+    padding: 20px; /* Inner padding */
+    background-color: #FFC0CB; /* Inner background color (baby pink) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+.page {
+    display: flex;
+    width: 100%;
+    min-height: 600px; /* Base height, can grow with content */
+    padding: 20px;
+    background-color: #FFC0CB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+body h3{
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-shadow: #cced0e;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2.5em; /* Size of the heading */
+    color: #e4e4e4;
+    text-shadow: 2px 2px 4px rgba(150, 26, 26, 0.823); /* Shadow effect */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.message-box {
+    background-color: #fff; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 8px; /* Rounded corners */
+    width: 300px; /* Set width */
+    height: 300px; /* Set height for a square */
+    display: flex; /* Flexbox to center content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for the box */
+    margin: 0 auto; /* Center the box */
+    font-size: 1.2em; /* Font size inside the box */
+    text-align: center; /* Center text */
+}
+h3{
+    text-shadow:2px 2px 4px rgba(5, 5, 5, 0.948);
+    color: rgb(0, 247, 255);
+  
+}
+body p{
+    color: #6e4646;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    font-size: 1.1em;
+}
+
+form {
+    margin-top: 60px; /* Space above the form */
+}
+.profile img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding: purple;
+}
+
+span{
+    color: rgb(255, 150, 150);
+    text-shadow: rgb(20, 19, 19);
+}
